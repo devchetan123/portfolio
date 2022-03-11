@@ -1,0 +1,40 @@
+.footerDiv{
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(10,25,47);
+    color: white;
+    padding-bottom: 25px;
+}
+
+.socialLine{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.socialIconLine{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.threeIcon{
+    display: flex;
+    gap: 10px;
+}
+
+
+@media screen and (max-width : 620px){
+    .socialLine{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        line-height: 1px;
+    }
+
+    .socialLine{
+        justify-content: center;
+        align-items: center;
+    }
+}

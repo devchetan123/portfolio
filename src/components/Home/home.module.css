@@ -1,0 +1,352 @@
+
+
+.topdiv{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.anchorLink{
+    text-decoration: none;
+}
+
+
+.nameDiv{
+    position: relative;
+    left: 12vw;
+    top: 80px;
+}
+
+.nameDiv :nth-child(1) {
+    position:absolute ;
+    color: rgb(10,25,47);
+    text-shadow: 0.5px 0.5px 2px black;
+}
+
+
+
+.nameDiv :nth-child(3){
+    position:absolute ;
+    top: 70px;
+    font-size: 3.5rem;
+    color: rgb(10,25,47);
+    text-shadow: 0.5px 0.5px 2px black;
+    width: 500px;
+}
+
+.nameline :nth-child(1){
+    position: absolute;
+    top: 30px;
+    font-size: 45px;
+    text-shadow: 0.5px 0.5px 2px black;
+
+}
+
+.nameline :nth-child(2){
+    position: absolute;
+    font-size: 45px;
+    top: 30px;
+    left: 105px;
+    color: rgb(100,255,218); 
+    text-shadow: 0.5px 0.5px 2px black;
+}
+
+.nameDiv :nth-child(4){
+    font-size: 18px;
+    position: absolute;
+    top: 180px;
+}
+
+.profileImg{
+    border-radius: 130px;
+    position: relative;
+    left:300px;
+    top: 130px;
+    box-shadow: 3px 3px 10px rgb(218, 212, 212);
+}
+
+.description{
+    width: 600px;
+}
+
+.linkedin{
+    position: relative;
+    top: 330px;
+    cursor: pointer;
+}
+
+.github {
+    position: relative;
+    top: 330px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.resumeBtn {
+    padding: 5px;
+    text-decoration: none;
+    position: relative;
+    top: 339px;
+    left: 103px;
+    height: 35px;
+    font-weight: 600;
+     cursor: pointer;
+     border: 3px solid rgb(10,25,47);
+     color: rgb(10,25,47);
+    background-color: transparent;
+    font-size: 15px;
+
+}
+
+.resumeBtn:hover{
+    border: 3px solid rgb(100,255,218);
+   color: rgb(100,255,218); 
+}
+
+.skillDiv{
+    margin: auto;
+    width: 95%;
+    margin-top: 350px;
+    text-align: center;
+    margin-bottom: 18vh;
+}
+
+.skillsContainer{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skillsContainer > div {
+    /* border: 2px solid grey; */
+    height: 120px;
+    width: 140px;
+    padding: 15px 25px 0px 25px;
+    box-shadow: 3px 3px 10px rgb(218, 212, 212);
+    border-radius: 10px;
+    color: rgb(10,25,47);
+    text-shadow: 0.1px 0.1px 0.7px black;
+
+}
+
+.skillsContainer > div:hover {
+    box-shadow: 3px 3px 10px rgb(121, 116, 116);
+}
+
+.projectMainDiv{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.projectDiv{
+    display: grid;
+    margin: auto;
+    width: 85%;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    text-align: left;
+}
+
+.paraofrole{
+    margin-top: -10px;
+}
+
+.cardMain{
+    position: relative;
+}
+
+.techStack{
+    padding-bottom: 35px;
+}
+
+.gobtns{
+    margin-top: 10px;
+    position: absolute;
+    bottom: 1px;
+    }
+
+@media screen and (max-width : 900px){
+   
+    .description{
+        width: 450px;
+    }
+
+    .profileImg{
+        position: relative;
+        left:200px;
+        top: 150px;
+        height: 200px;
+    }
+    .nameDiv{
+        position: relative;
+        left: 30px;
+        top: 90px;
+    }
+
+    .resumeBtn {
+        position: relative;
+        top: 378px;
+        left: 103px;
+    }
+
+    .linkedin{
+        position: relative;
+        top: 375px;
+        cursor: pointer;
+    }
+    
+    .github {
+        position: relative;
+        top: 375px;
+        left: 50px;
+        cursor: pointer;
+    }
+
+    .skillDiv{
+        margin: auto;
+        width: 94%;
+        margin-top: 430px;
+        text-align: center;
+    margin-bottom: 11vh;
+    }
+
+    .skillsContainer > div {
+        /* border: 2px solid grey; */
+        height: 100px;
+        width: 130px;
+        padding: 12px 25px 20px 25px;
+        box-shadow: 3px 3px 10px rgb(218, 212, 212);
+        border-radius: 10px;
+        color: rgb(10,25,47);
+        text-shadow: 0.1px 0.1px 0.7px black;
+    
+    }
+}
+
+@media screen and (max-width : 750px){
+
+    .description{
+        width: 450px;
+    }
+
+    .profileImg{
+        display: none;
+    }
+
+    .nameDiv{
+        position: relative;
+        left: 12%;
+        top: 90px;
+    }
+
+    .skillDiv{
+        margin: auto;
+        width: 94%;
+        margin-top: 580px;
+        text-align: center;
+    margin-bottom: 10vh;
+
+    }
+
+    .projectDiv{
+        margin: auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+}
+
+@media screen and (max-width : 450px){
+
+    .nameDiv{
+        position: relative;
+        left: 8vw;
+        top: 20px;
+    }
+    
+    .nameDiv :nth-child(1) {
+        position:absolute ;
+        color: rgb(10,25,47);
+        text-shadow: 0.5px 0.5px 2px black;
+    }
+    
+    
+    
+    .nameDiv :nth-child(3){
+        position:absolute ;
+        top: 70px;
+        font-size: 2.5rem;
+        color: rgb(10,25,47);
+        text-shadow: 0.5px 0.5px 2px black;
+        width: 330px;
+    }
+    
+    .nameline :nth-child(1){
+        position: absolute;
+        top: 30px;
+        font-size: 35px;
+        text-shadow: 0.5px 0.5px 2px black;
+    
+    }
+    
+    .nameline :nth-child(2){
+        position: absolute;
+        font-size: 35px;
+        top: 30px;
+        left: 82px;
+        color: rgb(100,255,218); 
+        text-shadow: 0.5px 0.5px 2px black;
+    }
+    
+    .nameDiv :nth-child(4){
+        font-size: 15px;
+        position: absolute;
+        top: 150px;
+    }
+
+    .description{
+        width: 320px;
+    }
+
+    .resumeBtn {
+        position: relative;
+        top: 333px;
+        left: 103px;
+    }
+
+    .linkedin{
+        position: relative;
+        top: 330px;
+        cursor: pointer;
+    }
+    
+    .github {
+        position: relative;
+        top: 330px;
+        left: 50px;
+        cursor: pointer;
+    }
+
+    .skillDiv{
+        margin: auto;
+        width: 94%;
+        margin-top: 420px;
+        text-align: center;
+    margin-bottom: 10vh;
+
+    }
+
+    .skillsContainer > div {
+        /* border: 2px solid grey; */
+        height: 90px;
+        width: 120px;
+        padding: 5px;
+        font-size: 10px;
+        box-shadow: 3px 3px 10px rgb(218, 212, 212);
+        border-radius: 10px;
+        color: rgb(10,25,47);
+        text-shadow: 0.1px 0.1px 0.7px black;
+    
+    }
+}
